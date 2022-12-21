@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Muller";
+    font-display: swap;
+    src: url("../fonts/MullerBold.woff") format("woff"), 
+         url("../fonts/MullerBold.woff2") format("woff2");
+    font-weight: bold; 
+  }
+
+  @font-face {
+    font-family: "Muller";
+    font-display: swap;
+    src: url("../fonts/MullerRegular.woff") format("woff"), 
+         url("../fonts/MullerRegular.woff2") format("woff2");
+    font-weight: normal;   
+  }
+
+  body {
+    font-family: "Muller";
+    font-weight: normal;
+  }
+  
+.first-screen {
+    background-image: url(../img/lady.png) ,url(../img/background.jpg);
+    height:800px;
+    width: 100%;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size:contain, cover;
+    position: relative;   
+}
+
+.header { 
+    display: flex;
+    justify-content:space-between;
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: flex-end;        
+}
+
+.nav {
+    display: grid;    
+}
+
+.ul1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+    list-style-type: none;
+}
+
+.ul1 li {
+    display: grid;
+    list-style-type: none;     
+}
+
+.phone-logo-hider {
+    margin-right: 10px;
+}
+    
+.ul1 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 21px;   
+}
+
+.text-logo { 
+    font-size: 26px;
+    color: #46B1DE;   
+}
+
+.phone {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;   
+}
+
+.phone a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 21px; 
+}
+
+.paragraf {
+    display: block;
+    margin-top: 120px;
+}
+
+.paragraf h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.paragraf h2 {
+    text-transform: uppercase;
+    color: #46B1DE;  
+    font-size: 42px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.paragraf h3 {
+    font-weight: 900;
+}
+
+.bottom {
+    display: flex;
+    width: 1150px;
+}
+.CALL {
+    display: inline-block;
+    border: #000 solid 1px;
+    height: 50px;
+    width: 140px;
+    background: #46B1DE;
+    color: white;
+    margin: 50px 75px 0 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;    
+}
+   
+.SERVICES {
+    display: inline-block;
+    height: 50px;
+    width: 140px;
+    border: #000 solid 1px;
+    background: white;
+    color: #46B1DE;
+    margin: 50px 0 0 75px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);  
+    width: 1150px;
+    justify-items: center;
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.one {
+    display: flex;
+    height: 90px;
+    width: 280px;
+    border: #000 solid 1px;
+    background: white;
+}
+
+.nomber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #46B1DE;
+    font-size: 70px;
+    padding: 5px;
+    font-weight: bold;        
+}
+
+.textspan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.section2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.paragraf2 {
+    margin: 180px 0 52px 0;
+    line-height: 1.5em;
+}
+
+.paragraf2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.paragraf2 h2 span {
+    color: #46B1DE;
+    font-weight: 600;
+}
+
+.paragraf2 p {
+    text-align: center; 
+}
+
+.outdoor-unit {
+    display: flex;
+    justify-content: center;   
+}
+
+.outdoor-unit1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px ;
+    row-gap: 16px;
+    background-color: #46B1DE;
+    border-radius: 10px;
+    width: 1080px;
+    height: 400px;
+}
+
+.box { 
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    width: 330px;
+    height: 192px;
+    padding: 15px;      
+}
+
+.inbox {
+    display: flex;
+    height: 70px;      
+}
+
+.nomb {
+    color: #46B1DE;
+    font-size: 38px;
+    width: 70px;
+    font-weight: bold;
+}
+
+.nombtext {
+    color: #46B1DE;
+    font-size: 16px;
+    vertical-align: top;
+    width: 100%;
+    font-weight: bold;
+}
+
+.conteiner {
+    width: 1150px; margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.box-for-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(180,219,236,1) 0%, rgba(70,177,222,1) 100%);
+    height: 320px;
+    width: 1000px;  
+}
+
+.inform-footer {
+    height:210px;
+    width: 330px;
+    position: relative;
+    color: #253e49;
+}
+
+.tooth-and-name {
+    display: flex;
+    height: 60px;
+    padding: 10px;
+}
+
+.name-surname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: flex-end;
+    color: #253e49;
+    font-size: 26px;
+    padding-left: 10px;   
+}
+
+.homeservic {
+   display: inline-block;
+   padding-top: 20px;   
+}
+
+.homeservic a p {
+    padding: 7px 0 7px 10px;
+    font-size: 18px;
+}
+
+.language {
+    font-size: 20px;
+    padding: 7px 0 7px 10px;
+}
+
+.hours {
+    box-sizing: border-box;
+    position: absolute;
+    height: 95px;
+    width: 135px;
+    bottom: 0;
+    right: 0;   
+}
+
+.hours-title {
+    font-weight: bold;
+    padding: 7px;
+}
+
+.contacts {
+    height: 260px;
+    width: 330px;
+    color: white;
+    line-height: 20px;
+}
+
+.contacts h3 {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 12px;    
+}
+
+.contacts p {
+    padding: 6px;
+}
+
+.footer-phone {
+    display: flex;
+    padding: 6px;
+}
+
+.footer-nomber {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 17px;  
+} 
+
+.footer-messengers a{
+    padding: 6px;
+}
+
+.whatsapplogo {
+    height: 32px;
+}
+
+.footer-instagram {
+    display: flex;
+    padding: 6px;
+}
+
+.footer-instagram span {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footer-gmail {
+    display: flex;  
+}
+
+.gmail-logo {
+    display: flex;
+}
+
+.gmail-text {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a { 
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
